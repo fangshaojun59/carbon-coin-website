@@ -1,0 +1,136 @@
+@import '~antd/lib/style/themes/default.less';
+@import './removeDefault.less';
+
+@cus_gary: #c8c8d9;
+@cus_block: rgba(0, 0, 0, 0.85);
+
+.common-modal {
+  .anticon.anticon-close-square {
+    font-size: 2rem;
+    color: @cus_gary;
+    &:hover {
+      color: @cus_block;
+    }
+  }
+  .ant-modal-close-x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+}
+
+.common-drawer {
+  .ant-drawer-header-title {
+    flex-direction: row-reverse;
+    .ant-drawer-close {
+      margin-right: 0;
+      font-size: 2rem;
+      color: @cus_gary;
+    }
+  }
+  .ant-drawer-header {
+    border-bottom: 0.06rem dashed #f0f0f0;
+  }
+}
+
+.wallet-connect-h5-drawer {
+  .ant-drawer-body {
+    padding: 0;
+  }
+}
+
+/** ant message customize css */
+.message-global {
+  // top: 0;
+  // margin-bottom: 0.5rem;
+  // width: 100%;
+  // min-height: 3.75rem;
+  // background-color: fade(@theme, 70%);
+  // box-shadow: 0 0.19rem 0.38rem -0.25rem rgb(0 0 0 / 12%), 0 0.38rem 1rem 0 rgb(0 0 0 / 8%), 0 0.56rem 1.75rem 0.5rem rgb(0 0 0 / 5%);
+  // .ant-message-notice-content {
+  //   box-shadow: none;
+  //   background: transparent;
+  //   font-weight: 400;
+  //   color: #fff;
+  // }
+}
+
+.languageOverlayClassName {
+  .ant-popover-content {
+    width: 8.13rem;
+    background: #fff;
+    text-align: center;
+    border-radius: 0.31rem;
+    padding: 0.25rem 0;
+    box-shadow: @shadow-2;
+  }
+  .ant-popover-inner-content {
+    padding: 0.5rem;
+  }
+  .ant-popover-inner {
+    box-shadow: none;
+  }
+}
+
+.bjLogo {
+  width: 1.38rem;
+  height: 1.38rem;
+  margin-left: 0.69rem;
+}
+
+.noactive {
+  // background: @theme;
+  border: none;
+}
+
+.wallet-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drawer-mask {
+  .ant-drawer-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .drawer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .drawer-info {
+    margin-top: 2.5rem;
+  }
+  .drawer-span {
+    width: 15rem;
+    height: 4.25rem;
+    background: #ffffff;
+    border: 1px solid #2f303b;
+    border-radius: 2.13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2f303b;
+    &:hover {
+      border: 1px solid @theme;
+      color: @theme;
+    }
+  }
+  .ant-drawer-close {
+    position: absolute;
+    right: 0;
+  }
+  .active-info {
+    color: @theme;
+    h3 {
+      color: @theme;
+    }
+  }
+}
