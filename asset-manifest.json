@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "./static/css/main.08f98d25.css",
+    "main.js": "./static/js/main.1e5d9cb3.js",
+    "static/js/787.e7f94020.chunk.js": "./static/js/787.e7f94020.chunk.js",
+    "static/media/CC.pdf": "./static/media/CC.9aa76ee7a94c08b417f8.pdf",
+    "static/media/homeBg2.png": "./static/media/homeBg2.5bba59a15fcd5eec03e9.png",
+    "static/media/homeBg3.png": "./static/media/homeBg3.f16a4340cb6c3af96770.png",
+    "static/media/homeBg4.png": "./static/media/homeBg4.b3ddd58bef2516aba1cd.png",
+    "static/media/exBg.png": "./static/media/exBg.870acb1090122b3fab40.png",
+    "static/media/homgBg1.png": "./static/media/homgBg1.bd727836eabd166a44c5.png",
+    "static/media/bgPhone2.png": "./static/media/bgPhone2.1b0c51a9e9ff4ca22137.png",
+    "static/media/bgPhone1.png": "./static/media/bgPhone1.5a0d8ce951bf7c6a34d6.png",
+    "static/media/homeBg5.jpg": "./static/media/homeBg5.8c8af54430e8a4b0435b.jpg",
+    "static/media/logo.png": "./static/media/logo.d60708db44309ea8be41.png",
+    "static/media/metamask.svg": "./static/media/metamask.426833f105404ecf229ed49b361b08a0.svg",
+    "static/media/Ethereum-min.svg": "./static/media/Ethereum-min.2783da626d711d0aa6ed645a13ab1c1f.svg",
+    "static/media/Binance-min.svg": "./static/media/Binance-min.1f02d463ef61877ac22d7bcb179b068c.svg",
+    "static/media/telegram.svg": "./static/media/telegram.7285a6ce2cf5fd4fd7687e355146a35e.svg",
+    "static/media/twitter.svg": "./static/media/twitter.6fd01ad78bbc9032604be730366a0c3c.svg",
+    "static/media/medium.svg": "./static/media/medium.f84c40273b67c1308054ae2259bbee85.svg",
+    "static/media/network_default.svg": "./static/media/network_default.f51655a8b828593d1186d460ec354b7b.svg",
+    "static/media/wallet-connect.svg": "./static/media/wallet-connect.986542a28e6ee66213285f7523df0cea.svg",
+    "static/media/BNB.svg": "./static/media/BNB.60f7efa723467f568676863bff7bb810.svg",
+    "index.html": "./index.html",
+    "static/media/ETH.svg": "./static/media/ETH.1aa483f65370af538d66e14261f69d55.svg",
+    "main.08f98d25.css.map": "./static/css/main.08f98d25.css.map",
+    "main.1e5d9cb3.js.map": "./static/js/main.1e5d9cb3.js.map",
+    "787.e7f94020.chunk.js.map": "./static/js/787.e7f94020.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08f98d25.css",
+    "static/js/main.1e5d9cb3.js"
+  ]
+}
